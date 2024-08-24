@@ -1,3 +1,6 @@
+# This top half is from the idank from holykeebs
+# The bottom half is from miryoku by manna-harbour
+
 VALID_POINTING_DEVICE_CONFIGURATIONS := trackball cirque40 cirque35 cirque35_cirque35 cirque40_cirque40 trackball_trackball trackball_cirque35 cirque35_trackball trackball_cirque40 cirque40_trackball trackpoint trackpoint_trackball trackball_trackpoint trackpoint_cirque35 cirque35_trackpoint trackpoint_cirque40 cirque40_trackpoint
 ifdef POINTING_DEVICE
     ifeq ($(filter $(POINTING_DEVICE),$(VALID_POINTING_DEVICE_CONFIGURATIONS)),)
@@ -68,3 +71,18 @@ print-summary: cpfirmware
 	printf "OLED: $(BOLD)$(MSG_OLED) $(MSG_OLED_FLIPPED)$(NO_COLOR)\n" >&2
 	printf "Keyboard main side: $(BOLD)$(MSG_MASTER_SIDE)$(NO_COLOR)\n" >&2
 	printf "\n$(WARN_COLOR)WARNING!$(NO_COLOR) Avoid connecting / disconnecting the TRRS cable when the keyboard is powered. This can short the GPIO pins of the controllers.\n\n" >&2
+
+
+# this last bit is from miryoku
+MOUSEKEY_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+AUTO_SHIFT_ENABLE = yes
+TAP_DANCE_ENABLE = yes
+CAPS_WORD_ENABLE = yes
+KEY_OVERRIDE_ENABLE = yes
+
+INTROSPECTION_KEYMAP_C = amodm.c # keymaps
+
+include users/manna-harbour_miryoku/custom_rules.mk
+
+include users/manna-harbour_miryoku/post_rules.mk
