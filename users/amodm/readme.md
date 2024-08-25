@@ -6,4 +6,8 @@ line flags, regardless of the keyboard/keymap used.
 ```
 # build corne with manna-harbour_miryoku keymap, enable cirque40 trackpad
 make crkbd/rev1:manna-harbour_miryoku -j$(nproc) -e USER_NAME=amodm -e OLED=yes -e OLED_FLIP=yes -e POINTING_DEVICE=cirque40 -e SIDE=right 
+
+# build miryoku with some layers in vi mode
+make crkbd/rev1:manna-harbour_miryoku -j$(nproc) -e USER_NAME=amodm -e OLED=yes -e OLED_FLIP=yes -e POINTING_DEVICE=cirque40 -e SIDE=right -e MIYOKU_NAV=VI -e MIRYOKU_MEDIA=VI -e MIRYOKU_MOUSE=VI
+
 ```
