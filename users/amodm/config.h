@@ -83,3 +83,7 @@
   #define COMBO_TERM 200
   #define EXTRA_SHORT_COMBOS
 #endif
+
+// CAPS word
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+#define CAPS_WORD_INVERT_ON_SHIFT
