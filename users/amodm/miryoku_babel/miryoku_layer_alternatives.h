@@ -106,7 +106,7 @@ U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U
 
 #define MIRYOKU_ALTERNATIVES_BASE_ENGRAMMER \
 KC_B,              KC_Y,              KC_O,              KC_U,              KC_QUOT,           KC_SCLN,           KC_L,              KC_D,              KC_W,              KC_V,              \
-LGUI_T(KC_C),      LALT_T(KC_I),      LCTL_T(KC_E),      LSFT_T(KC_A),      KC_COMM,           KC_DOT,            LSFT_T(KC_H),      LCTL_T(KC_T),      LALT_T(KC_S),      LGUI_T(KC_N),      \
+LGUI_T(KC_C),      LALT_T(KC_I),      LCTL_T(KC_E),      LSFT_T(KC_A),      KC_COMM,           KC_DOT,            RSFT_T(KC_H),      RCTL_T(KC_T),      RALT_T(KC_S),      RGUI_T(KC_N),      \
 LT(U_BUTTON,KC_G), ALGR_T(KC_X),      KC_J,              KC_K,              KC_MINS,           KC_SLSH,           KC_R,              KC_M,              ALGR_T(KC_F),      LT(U_BUTTON,KC_P), \
 U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP
 
