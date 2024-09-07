@@ -35,6 +35,20 @@
   KC_LSFT, K20, K21, K22, K23, K24,            K25, K26, K27, K28, K29, KC_RCTL,\
                         K32, K33, K34,      K35, K36, K37\
   )
+#elif defined(MIRYOKU_LAYER_TAP)
+  // adding reset keys to outermost columns to escape tap mode
+  #define LAYOUT_miryoku(\
+       K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09,\
+       K10, K11, K12, K13, K14,                K15, K16, K17, K18, K19,\
+       K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29,\
+       N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39\
+  )\
+  LAYOUT(\
+  TD(U_TD_RESET), K00, K01, K02, K03, K04,            K05, K06, K07, K08, K09, TD(U_TD_RESET),\
+  KC_ESC,         K10, K11, K12, K13, K14,            K15, K16, K17, K18, K19, KC_SLSH,\
+  KC_LSFT,        K20, K21, K22, K23, K24,            K25, K26, K27, K28, K29, KC_RCTL,\
+                               K32, K33, K34,      K35, K36, K37\
+  )
 #else
   #define LAYOUT_miryoku(\
        K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09,\
