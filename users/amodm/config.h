@@ -89,5 +89,3 @@
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 #define CAPS_WORD_INVERT_ON_SHIFT
 
-// include custom  configs
-#include "custom_config.h"

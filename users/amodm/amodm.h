@@ -2,8 +2,12 @@
 
 #include QMK_KEYBOARD_H
 
-#include "miryoku_babel/miryoku_layer_selection.h"
 #include "miryoku_babel/miryoku_layer_list.h"
+#if defined (KEYBOARD_crkbd)
+  #include "crkbd.h"
+#else
+  #include "miryoku_babel/miryoku_layer_selection.h"
+#endif
 
 enum miryoku_layers {
 #define MIRYOKU_X(LAYER, STRING) U_##LAYER,
