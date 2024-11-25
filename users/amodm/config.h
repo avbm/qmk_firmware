@@ -89,3 +89,5 @@
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 #define CAPS_WORD_INVERT_ON_SHIFT
 
+// Tapping term per key
+#define TAPPING_TERM_PER_KEY

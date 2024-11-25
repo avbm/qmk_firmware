@@ -11,31 +11,31 @@
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_3x6_3 \
 KC_TAB,           KC_Q,              KC_W,              KC_F,              KC_P,              KC_B,              KC_J,              KC_L,              KC_U,              KC_Y,              KC_QUOT,              KC_MINS,\
-KC_ESC,           LGUI_T(KC_A),      LALT_T(KC_R),      LCTL_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_M,              RSFT_T(KC_N),      LCTL_T(KC_E),      LALT_T(KC_I),      LGUI_T(KC_O),         KC_RCTL,\
+KC_ESC,           LGUI_T(KC_A),      LALT_T(KC_R),      LCTL_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_M,              RSFT_T(KC_N),      RCTL_T(KC_E),      RALT_T(KC_I),      RGUI_T(KC_O),         KC_RCTL,\
 KC_LSFT,          LT(U_BUTTON,KC_Z), ALGR_T(KC_X),      KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH), KC_RSFT,\
 U_NP,             U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP,                 U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_ENGRAMMER_3x6_3 \
 KC_TAB,           KC_B,              KC_Y,              KC_O,              KC_U,              KC_QUOT,           KC_SCLN,           KC_L,              KC_D,              KC_W,              KC_V,              KC_Z,\
-KC_ESC,           LGUI_T(KC_C),      LALT_T(KC_I),      LCTL_T(KC_E),      LSFT_T(KC_A),      KC_COMM,           KC_DOT,            RSFT_T(KC_H),      LCTL_T(KC_T),      LALT_T(KC_S),      LGUI_T(KC_N),      KC_Q,\
+KC_ESC,           LGUI_T(KC_C),      LALT_T(KC_I),      LCTL_T(KC_E),      LSFT_T(KC_A),      KC_COMM,           KC_DOT,            RSFT_T(KC_H),      RCTL_T(KC_T),      RALT_T(KC_S),      RGUI_T(KC_N),      KC_Q,\
 KC_LSFT,          LT(U_BUTTON,KC_G), ALGR_T(KC_X),      KC_J,              KC_K,              KC_MINS,           KC_SLSH,           KC_R,              KC_M,              ALGR_T(KC_F),      LT(U_BUTTON,KC_P), KC_RCTL,\
 U_NP,             U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_GRAPHITE_3x6_3 \
 KC_TAB,           KC_B,              KC_L,              KC_D,              KC_W,              KC_Z,              KC_QUOT,           KC_F,              KC_O,              KC_U,              KC_J,                 KC_MINS,\
-KC_ESC,           LGUI_T(KC_N),      LALT_T(KC_R),      LCTL_T(KC_T),      LSFT_T(KC_S),      KC_G,              KC_Y,              RSFT_T(KC_H),      LCTL_T(KC_A),      LALT_T(KC_E),      LGUI_T(KC_I),         KC_RCTL,\
+KC_ESC,           LGUI_T(KC_N),      LALT_T(KC_R),      LCTL_T(KC_T),      LSFT_T(KC_S),      KC_G,              KC_Y,              RSFT_T(KC_H),      RCTL_T(KC_A),      RALT_T(KC_E),      RGUI_T(KC_I),         KC_RCTL,\
 KC_LSFT,          LT(U_BUTTON,KC_Q), ALGR_T(KC_X),      KC_M,              KC_C,              KC_V,              KC_K,              KC_P,              KC_DOT,            ALGR_T(KC_MINS),   LT(U_BUTTON,KC_SLSH), KC_RSFT,\
 U_NP,             U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP,                 U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_HALMAK_3x6_3 \
 KC_TAB,           KC_W,              KC_L,              KC_R,              KC_B,              KC_Z,              KC_QUOT,           KC_Q,              KC_U,              KC_D,              KC_J,              KC_MINS,\
-KC_ESC,           LGUI_T(KC_S),      LALT_T(KC_H),      LCTL_T(KC_N),      LSFT_T(KC_T),      KC_COMM,           KC_DOT,            RSFT_T(KC_A),      LCTL_T(KC_E),      LALT_T(KC_O),      LGUI_T(KC_I),      KC_RCTL,\
+KC_ESC,           LGUI_T(KC_S),      LALT_T(KC_H),      LCTL_T(KC_N),      LSFT_T(KC_T),      KC_COMM,           KC_DOT,            RSFT_T(KC_A),      RCTL_T(KC_E),      RALT_T(KC_O),      RGUI_T(KC_I),      KC_RCTL,\
 KC_LSFT,          LT(U_BUTTON,KC_F), ALGR_T(KC_M),      KC_V,              KC_C,              KC_SLSH,           KC_G,              KC_P,              KC_X,              ALGR_T(KC_K),      LT(U_BUTTON,KC_Y), KC_RSFT,\
 U_NP,             U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY_3x6_3 \
 KC_TAB,           KC_Q,              KC_W,              KC_E,              KC_R,              KC_T,              KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,                 KC_MINS,\
-KC_ESC,           LGUI_T(KC_A),      LALT_T(KC_S),      LCTL_T(KC_D),      LSFT_T(KC_F),      KC_G,              KC_H,              RSFT_T(KC_J),      LCTL_T(KC_K),      LALT_T(KC_L),      LGUI_T(KC_QUOT),      KC_RCTL,\
+KC_ESC,           LGUI_T(KC_A),      LALT_T(KC_S),      LCTL_T(KC_D),      LSFT_T(KC_F),      KC_G,              KC_H,              RSFT_T(KC_J),      RCTL_T(KC_K),      RALT_T(KC_L),      RGUI_T(KC_QUOT),      KC_RCTL,\
 KC_LSFT,          LT(U_BUTTON,KC_Z), ALGR_T(KC_X),      KC_C,              KC_V,              KC_B,              KC_N,              KC_M,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH), KC_RSFT,\
 U_NP,             U_NP,              U_NP,              LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL),  U_NP,              U_NP,                 U_NP
 
