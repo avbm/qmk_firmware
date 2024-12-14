@@ -98,9 +98,9 @@ combo_t key_combos[COMBO_COUNT] = {
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case LGUI_T(KC_A):
-            return TAPPING_TERM + 200;
+            return TAPPING_TERM + 50;
         case RGUI_T(KC_QUOT):
-            return TAPPING_TERM + 200;
+            return TAPPING_TERM + 50;
         default:
             return TAPPING_TERM;
     }

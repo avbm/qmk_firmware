@@ -56,7 +56,8 @@
 // default but used in macros
 #undef TAPPING_TERM
 #define TAPPING_TERM 210
-#define PERMISSIVE_HOLD
+//#define PERMISSIVE_HOLD
+#undef PERMISSIVE_HOLD
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define QUICK_TAP_TERM 0
